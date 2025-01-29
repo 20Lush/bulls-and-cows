@@ -1,17 +1,17 @@
 cmake_minimum_required(VERSION 3.22)
 
 # Lets initialize the project for our actual executable
-project(EXECUTABLE_NAME
+project(bulls-and-cows
     VERSION ${PROJECT_VERSION}
-    DESCRIPTION "EXECUTABLE Project"
+    DESCRIPTION "bulls-and-cows Project"
 )
 message(STATUS "Project name: " ${PROJECT_NAME})
 
 # Put some versioning info into our runtime environment
-configure_file(
-    "${PROJECT_SOURCE_DIR}/include/version.hpp.in"
-    "${PROJECT_SOURCE_DIR}/include/version.hpp"
-)
+# configure_file(
+#     "${PROJECT_SOURCE_DIR}/include/version.hpp.in"
+#     "${PROJECT_SOURCE_DIR}/include/version.hpp"
+# )
 
 # Define what source files we actually are going to compile
 set(SOURCE_FILES
