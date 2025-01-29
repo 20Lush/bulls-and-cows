@@ -1,27 +1,27 @@
-
 #include "main.hpp"
 
-// Make sure to change the namespace EXECUTABLE to something more specific
-namespace lush::EXECUTABLE {
+// Function to generate a valid 4-digit secret number
+std::string generate_secret() {
+    // Your implementation here
+}
 
-	// Any forward declerations?
+// Function to validate player's guess
+bool is_valid_guess(const std::string& guess) {
+    // Your validation logic here
+}
 
-	bool print_args(int argc, char** argv) {
+// Calculate bulls and cows for a given guess
+std::pair<int, int> get_bulls_and_cows(const std::string& secret, const std::string& guess) {
+    // Your calculation logic here
+}
 
-		std::cout << "args: ";
-		for (int idx = 0; idx < argc; idx++) {
-			std::cout << argv[idx] << " ";
-		}
-		std::cout << std::endl;
-
-		return true;
-	}
-
-}  // namespace lush::EXECUTABLE
-
-int main(int argc, char** argv) {
-
-	std::cout << "Hello World! Executable given " << argc << " arguments." << std::endl;
-
-	lush::EXECUTABLE::print_args(argc, argv);
+int main() {
+    std::string secret = generate_secret();
+    int attempts = 0;
+    
+    std::cout << "Welcome to Bulls and Cows!\n";
+    
+    while(true) {
+        // Your game loop implementation here
+    }
 }
