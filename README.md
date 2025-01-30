@@ -69,3 +69,17 @@ int main() {
 4. Create an AI opponent that plays against you
 
 This problem tests your ability to handle multiple constraints, work with strings/numbers, and design clean logic flows – all common in technical interviews. It's also fun to play when finished!
+
+# Solution
+
+see ./executable/src/main.cpp
+
+# Usage
+
+1. Launch my dev container
+2. cd to ./scripts/
+3. run ./get_dependencies.sh
+4. run ./compile.sh
+5. exec installed executable
+
+compiled in gcc, dev container lacks gdb debugger though :(
